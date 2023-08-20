@@ -4,6 +4,7 @@ import Viedio from './Viedio';
 function Mainbody() {
     const [news, setNews] = useState([]);
     async function fun(e) {
+        let val ;
         e.preventDefault();
         e.stopPropagation()
         console.log(e);
